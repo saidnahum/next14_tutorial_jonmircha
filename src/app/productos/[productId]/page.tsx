@@ -1,6 +1,19 @@
+import { Metadata } from "next"
+
+// export const metadata = {
+//   title: 'Producto',
+//   description: 'Estas en la seccion de productos'
+// }
+
 interface Props {
   params: {
     productId: string
+  }
+}
+
+export const generateMetadata = ({ params }: Props): Metadata => {
+  return {
+    title: `Producto ${params.productId}`
   }
 }
 
