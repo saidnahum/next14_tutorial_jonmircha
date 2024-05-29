@@ -26,12 +26,15 @@ export default function RootLayout({
         <header>
           <p>Header App</p>
           <nav>
-            <Link href='/'>Home-</Link>
-            <Link href='/acerca'>Acerca-</Link>
-            <Link href='/contacto'>Contacto-</Link>
-            <Link href='/blog'>Blog-</Link>
-            <Link href='/productos'>Productos-</Link>
-            <Link href='/login'>Login</Link>
+            <Link href='/'>Home - </Link>
+            <Link href='/acerca'>Acerca - </Link>
+            <Link href='/contacto'>Contacto - </Link>
+            <Link href='/blog'>Blog - </Link>
+            <Link href='/productos'>Productos - </Link>
+            <Link href='/login'>Login - </Link>
+            <Link href='/registro'>Registro - </Link>
+            <Link href='/password'>Recuperar - Password - </Link>
+            <Link href='/dashboard'>DASHBOARD</Link>
           </nav>
         </header>
 

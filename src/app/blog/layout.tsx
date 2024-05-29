@@ -4,7 +4,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <header>Cabecera Blog</header>
 
       <main>
-        <section>{children}</section>
+        <section>
+          {children}
+        </section>
+        
         <aside>
           <form action="">
             <input type="search" />
